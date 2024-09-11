@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:hoda}",
+            "name": "Debug hoda",
+            "program": "${workspaceFolder:hoda}/.build/debug/hoda",
+            "preLaunchTask": "swift: Build Debug hoda"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:hoda}",
+            "name": "Release hoda",
+            "program": "${workspaceFolder:hoda}/.build/release/hoda",
+            "preLaunchTask": "swift: Build Release hoda"
+        }
+    ]
+}
